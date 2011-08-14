@@ -1,0 +1,8 @@
+<h1><%= flash[:error] %></h1>
+
+<% unless @search.blank? %>
+    <h1>Search results for '<%= @query %>'</h1>
+    <% @search.results.each do |r| %>
+        <p><%= r.text %></p>
+    <% end %>
+<% end %>
