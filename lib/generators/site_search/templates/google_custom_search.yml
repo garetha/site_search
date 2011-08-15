@@ -1,0 +1,5 @@
+# Put your Google Custom Search API key
+
+:GoogleCS
+  :api_key "AIzaSyB8yG2b3JbJignXug-ejxEPbe8WQMqSDLE"
+  :cx "009686358712893010562:1sgasn_tetk"

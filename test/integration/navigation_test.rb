@@ -21,4 +21,14 @@ class NavigationTest < ActiveSupport::IntegrationCase
     assert page.has_content?("No results for 'hello'")
   end
 
+  test "a search returns no results when query is blank" do
+    visit new_search_path
+    assert page.has_content?('New Search')
+
+    fill_in 'query', :with => ''
+    click_button 'Search'
+
+    assert page.has_content?("No results for ''")
+  end
+
 end

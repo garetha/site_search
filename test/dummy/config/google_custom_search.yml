@@ -1,0 +1,12 @@
+# Put your Google Custom Search API key
+
+development: &defaults
+  api_key: "AIzaSyB8yG2b3JbJignXug-ejxEPbe8WQMqSDLE"
+  search_engines:
+    appslite:
+      cx: "009686358712893010562:1sgasn_tetk"
+    designlite:
+      cx: "009686358712893010562:1sgasn_tetk"
+
+test:
+  <<: *defaults

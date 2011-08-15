@@ -3,6 +3,12 @@
 <% unless @search.blank? %>
     <h1>Search results for '<%= @query %>'</h1>
     <% @search.results.each do |r| %>
-        <p><%= r.text %></p>
+        <p>
+          <b><%= r.title %></b> - <%= link_to r.url %><br />
+          <%= r.text %>
+        </p>
     <% end %>
+    <p>
+      <%= @search.raw %>
+    </p>
 <% end %>
