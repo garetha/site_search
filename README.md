@@ -17,9 +17,13 @@ gem 'site_search'
 ## Getting Started
 
 Start off by generating the required config and initializer files:
-    Rails 3
+
+    ### Rails 3
+
 	    rails generate site_search:google_custom_search
-	Rails 2.3
+
+	### Rails 2.3
+
 	    ruby script/generate site_search:google_custom_search
 
 this should give you files in:
@@ -39,7 +43,6 @@ production:
   search_engines:
     your_search_engine:
         cx: "YOUR-CX-RECORD"
-end
 ```
 
 An initializer file is required to load the config settings, if you're using Rails, one is created for you:
