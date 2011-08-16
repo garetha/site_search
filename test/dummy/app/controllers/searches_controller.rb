@@ -12,7 +12,7 @@ class SearchesController < ApplicationController
 
   def create
     @query = params[:query]
-    @search = SiteSearch::GoogleSearch.new(:appslite, @query, :json)
+    @search = SiteSearch::GoogleSearch.new(:appslite, @query, {:alt=>'atom'})
     render 'show'
   end
 end
