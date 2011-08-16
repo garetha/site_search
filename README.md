@@ -18,11 +18,11 @@ gem 'site_search'
 
 Start off by generating the required config and initializer files:
 
-    ### Rails 3
+    Rails 3
 
 	    rails generate site_search:google_custom_search
 
-	### Rails 2.3
+	Rails 2.3
 
 	    ruby script/generate site_search:google_custom_search
 
