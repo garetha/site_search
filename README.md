@@ -71,7 +71,7 @@ You can also access the raw document that is received from the Google Custom Sea
 @search.raw
 ```
 
-The GoogleSearch class also accepts a optional parameters, for example the alt parameter for specifying the format
+The GoogleSearch class also accepts optional query parameters(check out the [Google Custom Search API](http://code.google.com/apis/customsearch/v1/using_rest.html#query-params) for details), for example the alt parameter for specifying the format
 of the response, can either be json(default) or atom.
 
 ``` ruby
