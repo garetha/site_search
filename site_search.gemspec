@@ -1,7 +1,7 @@
 # Provide a simple gemspec so you can easily use your enginex
 # project in your rails apps through git.
 Gem::Specification.new do |s|
-  s.name = "SiteSearch"
+  s.name = "site_search"
   s.author = "Gareth Allen"
   s.email = "gaz.allen12@gmail.co.uk"
   s.homepage = "http://github.com/garetha/site_search"

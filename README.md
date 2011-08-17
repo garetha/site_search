@@ -59,7 +59,7 @@ You can then access the results in the view like so:
 
 ``` ruby
 <% @search.results.each do |result| %>
-    <%= results.title %>
+    <%= result.title %>
     <%= result.text %>
     <%= result.url %>
 <% end %>
