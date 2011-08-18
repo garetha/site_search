@@ -1,0 +1,25 @@
+# Put your Google Custom Search API key and any search engines you have set up.
+
+development: &defaults
+  api_key: "YOUR-API-KEY"
+  search_engines:
+    my_search_engine:
+      cx: "CX-RECORD-FOR-MY-SEARCH-ENGINE"
+      #cref: "{optional}-YOUR-SEARCH-ENGINE-URL"
+      #lr: "{optional}-LANGUAGE-RESTRICTION"
+
+      # The following options can be supplied or overridden in the options hash
+      #num: "{optional}-NUM-OF-RESULTS-1-10(*default)"
+      #safe: "{optional}-high/medium/off(*default)"
+      #start: "{optional}start-index-between-1(*default)-101"
+      #filter: "{optional}-0(duplicates-off)/1(duplicated-on-*default)"
+      #alt: "{optional}-json(*default)/atom"
+
+production:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+
+

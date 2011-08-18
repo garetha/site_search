@@ -7,8 +7,6 @@ module SiteSearch
     require 'rexml/document'
     attr_reader :results, :total, :start_index, :raw
 
-    alias_method :raw?, :raw
-
     def initialize(search_engine, query, options={})
       raise NoResults.new if query.blank?
       @query = escape_html(query).gsub(" ", '+')

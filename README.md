@@ -20,11 +20,11 @@ Start off by generating the required config and initializer files:
 
     Rails 3
 
-	    rails generate site_search:google_custom_search
+	    rails g site_search:google_custom_search
 
 	Rails 2.3
 
-	    ruby script/generate site_search:google_custom_search
+	    script/generate google_custom_search
 
 this should give you files in:
 
