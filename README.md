@@ -85,7 +85,7 @@ please make sure that your changes are well tested.
 
 ## License
 
-Copyright (c) 20011 Gareth Allen
+Copyright (c) 2011 Gareth Allen
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
